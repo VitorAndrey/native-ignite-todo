@@ -1,79 +1,61 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Ignite Todo Nativo
 
-# Getting Started
+Bem-vindo ao repositório do Aplicativo Nativo Ignite Todo! Este aplicativo é um projeto React Native desenvolvido como parte do curso Ignite da Rocketseat, com o objetivo de fornecer experiência prática nos conceitos fundamentais do desenvolvimento React Native. O aplicativo funciona como uma lista de tarefas, permitindo que os usuários criem, excluam e marquem tarefas como concluídas. Além disso, o rastreamento em tempo real das tarefas criadas e concluídas é fornecido.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Recursos
 
-## Step 1: Start the Metro Server
+- Criar novas tarefas
+- Excluir tarefas
+- Marcar tarefas como concluídas
+- Acompanhamento em tempo real das tarefas criadas e concluídas
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Começando
 
-To start Metro, run the following command from the _root_ of your React Native project:
+Para começar com este aplicativo, siga os passos abaixo:
 
-```bash
-# using npm
-npm start
+1. **Clonar o repositório:**
 
-# OR using Yarn
-yarn start
-```
+   ```bash
+   git clone https://github.com/seu-nome-de-usuário/native-ignite-todo.git
+   cd native-ignite-todo
+   ```
 
-## Step 2: Start your Application
+2. **Instalar dependências:**
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+   ```bash
+   yarn install
+   ```
 
-### For Android
+3. **Iniciar o servidor de desenvolvimento:**
 
-```bash
-# using npm
-npm run android
+   ```bash
+   yarn start
+   ```
 
-# OR using Yarn
-yarn android
-```
+4. **Executar o aplicativo no iOS/Android:**
 
-### For iOS
+   ```bash
+   # Para iOS
+   yarn ios
 
-```bash
-# using npm
-npm run ios
+   # Para Android
+   yarn android
+   ```
 
-# OR using Yarn
-yarn ios
-```
+## Uso
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+Uma vez que o aplicativo esteja em execução, você pode usá-lo para gerenciar suas tarefas:
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+- **Criar uma nova tarefa:** Digite a descrição da tarefa no campo de entrada e pressione o botão "+" para adicioná-la à lista.
+- **Excluir uma tarefa:** Deslize para a esquerda em uma tarefa para revelar o botão de exclusão e, em seguida, toque no botão para remover a tarefa.
+- **Marcar uma tarefa como concluída:** Toque em uma tarefa para alternar seu status de conclusão.
 
-## Step 3: Modifying your App
+O aplicativo também fornece estatísticas em tempo real sobre o número de tarefas criadas e concluídas na parte inferior da tela.
 
-Now that you have successfully run the app, let's modify it.
+## Contribuição
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+Contribuições são bem-vindas! Se você encontrar bugs ou quiser melhorar o aplicativo com novos recursos, fique à vontade para abrir uma issue ou enviar um pull request. Antes de contribuir, por favor, leia as [Diretrizes de Contribuição](CONTRIBUTING.md).
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+## Agradecimento
 
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Feliz codificação! 🚀
